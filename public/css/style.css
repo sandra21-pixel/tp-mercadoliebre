@@ -1,5 +1,105 @@
-/*.barner {
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=awap");
 
-display:none
-    
+:root {
+--yellow : #EAC926;
+--blue : #03264C;
+--lightBlue : #1259c3;
+--darkGrey : #666;
+--lightGrey : #ebebeb;
+--green : #39b54a;
+/*Fonts*/
+--font-primary : "Roboto", sans-serif;
+/*font-size*/ 
+--paragraph :12px;
+--title : 24px;
+--prices : 18px;
+--descriptions : 16px;
 }
+
+header {
+    background-color: var(--yellow);
+    padding-bottom: 20px;
+    font-size: var(--paragraph);
+}
+
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+body {
+    font-family: var(--font-primary);
+}
+
+
+.banner {
+   display:none;
+}
+
+.pb-15{
+    padding-bottom: 15;
+}
+
+
+header .burger-menu {
+    width: 30px;
+    height: 35px;
+    background-color: var(--lightBlue);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+header .burger-menu i {
+    margin-top: 9px;
+}
+
+header .dues {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+ .logo {
+     padding-top: 25px;
+     padding-left: 25px;
+     width: 150px;
+ }
+ .search-bar input {
+     margin-left: 15px;
+ }
+ 
+ 
+
+ footer {
+     padding-top: 40px;
+     padding-bottom: 15px;
+     text-align: center;
+ }
+ footer .copy {
+     color: var(--darkGrey);
+     font-size: var(--paragraph);
+     text-align: left;
+     padding-left: 15px;
+
+ }
+footer i {
+    color: var(--lightBlue);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+ footer p {
+     font-size: var(--paragraph);
+     padding: 10px 30px 10px 30px
+
+ }
+ footer {
+     font-size: var(--descriptions);
+ }
