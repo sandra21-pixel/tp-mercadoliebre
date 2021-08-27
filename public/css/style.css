@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=awap");
-
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: Roboto;
+}
 :root {
 --yellow : #EAC926;
 --blue : #03264C;
@@ -16,15 +23,11 @@
 --descriptions : 16px;
 }
 
+
 header {
     background-color: var(--yellow);
     padding-bottom: 20px;
     font-size: var(--paragraph);
-}
-
-*{ 
-    margin: 0;
-    padding: 0;
 }
 
 a{
@@ -53,11 +56,17 @@ header .burger-menu {
     color: white;
     text-align: center;
     margin: 0 auto;
+    padding: 10px;
 
 }
 
+
+
 header .burger-menu i {
     margin-top: 9px;
+    background-color: var(--lightBlue);
+    color: white;
+
 }
 
 header .dues {
@@ -72,11 +81,55 @@ header .dues {
      padding-left: 25px;
      width: 150px;
  }
+ main section{
+     width: 90%;
+     margin: 0 auto;
+ }
+ main section h2{
+     font-size:var(--titulares);
+    padding: 20px;
+ }
+ main section article .contenedor{
+     padding:15px;
+     border-top: 1px solid var(--lightGrey);
+ }
+ main section article .contenedorh2{
+display: none;
+padding: 20px;
+ }
+ main section article i{
+        color: var(--green);
+        border: 1px solid var(--green); 
+        border-radius: 50%;
+        padding: 5px;
+    }
+    main section article p{
+        color: var(--green);
+        margin: 10px 0;
+    }
+    @media (min-width: 361px) {
+        main .banner{
+            display: block;
+        }
+        main section article .contenedor h4{
+        display: block;
+        }
+        main section article {
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+       
+ 
+    @media (min-width: 769px) {
+           .burger-menu{
+               display: none;
+           }
+        }
+ .box-model
+
+ 
  .search-bar input {
      margin-left: 15px;
  }
- 
- 
 
  footer {
      padding-top: 40px;
@@ -103,3 +156,27 @@ footer i {
  footer {
      font-size: var(--descriptions);
  }
+ footer{
+    background-color: white;
+    padding-top: 20px;
+}
+footer section{
+    text-align: center;
+    padding: 20px 50px;
+}
+footer section i{
+color: var(--lightBlue);
+font-size: var(--titulares);
+}
+footer section h3{
+    font-size: var(--descuentos-descripciones);
+    color: var(--darkGrey);
+}
+footer section p{
+    color: var(--darkGrey);
+}
+footer p{
+    color: var(--darkGrey);
+    margin-left: 10px;
+}
+    }
