@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=awap");
 *{ 
+    font-family:"Roboto", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+
 body{
-    font-size: Roboto;
+    font-size: "Roboto";
 }
 :root {
 --yellow : #EAC926;
@@ -13,7 +16,7 @@ body{
 --lightBlue : #1259c3;
 --darkGrey : #666;
 --lightGrey : #ebebeb;
---green : #39b54a;
+--green : #39b54a; 
 /*Fonts*/
 --font-primary : "Roboto", sans-serif;
 /*font-size*/ 
@@ -25,9 +28,12 @@ body{
 
 
 header {
+    flex-direction: column;
     background-color: var(--yellow);
     padding-bottom: 20px;
     font-size: var(--paragraph);
+    width: 100%;
+
 }
 
 a{
@@ -40,13 +46,20 @@ body {
 
 
 .banner {
-   display:none;
+   display:block;
+}
+div.caja{
+    display:none
+}
+div.padre{
+    display: flex;
 }
 
 .pb-15{
-    padding-bottom: 15;
-}
+ padding-bottom: 15;
+ 
 
+}
 
 header .burger-menu {
     width: 30px;
@@ -79,7 +92,70 @@ header .dues {
  .logo {
      padding-top: 25px;
      padding-left: 25px;
-     width: 150px;
+     width: 50%;
+     margin-right: 15px;
+
+ }
+ div.search-bar {
+    padding-top: 40px;
+    padding-left: 40px;
+    width:50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+ }
+ button i{
+    padding-top: 5px;
+    padding-left: 5px;
+    
+ }
+ article.card1{
+     margin-left: 10px;
+     margin-right: 20px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ article.card2{
+     margin-left: 10px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-right: 20px;
+ }
+ article.card3{
+     margin-left: 10px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-right:20px;
+ } 
+ article.card4{
+     margin-left: 10px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+   margin-right: 20px;
+ }
+ article.card5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+     margin-left: 10px;
+     margin-right: 20px;
+ }
+ article.card6{
+     margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+     margin-right: 20px;
+ }
+ article.card7{ 
+     margin-left: 10px;
+     margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+ }  
+ article.card8{
+     margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+     margin-right: 20px;
  }
  main section{
      width: 90%;
@@ -90,29 +166,89 @@ header .dues {
     padding: 20px;
  }
  main section article .contenedor{
+     position: relative;
      padding:15px;
      border-top: 1px solid var(--lightGrey);
  }
  main section article .contenedorh2{
-display: none;
 padding: 20px;
  }
- main section article i{
+ 
+main section article i{
         color: var(--green);
-        border: 1px solid var(--green); 
-        border-radius: 50%;
+        display: flex;
+        font-size: 16px;
         padding: 5px;
-    }
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+
+        
+        }
     main section article p{
         color: var(--green);
         margin: 10px 0;
+        margin-left: 15px;
+    
     }
+    div .num{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    footer .copy {
+        color: var(--darkGrey);
+        font-size: var(--paragraph);
+        text-align: left;
+        padding-left: 15px;
+   
+    }
+   
+    footer{
+       background-color: white;
+       padding-top: 20px;
+   }
+   footer section{
+       text-align: center;
+       padding: 20px 50px;
+   }
+   footer section i{
+   color: var(--lightBlue);
+   font-size: var(--titulares);
+   }
+   footer section h3{
+       font-size: var(--descuentos-descripciones);
+       color: var(--darkGrey);
+   }
+   footer section p{
+       color: var(--darkGrey);
+   }
+   footer p{
+       color: var(--darkGrey);
+       margin-left: 10px;
+   }
+        
+    
     @media (min-width: 361px) {
-        main .banner{
+        .burger-menu{
             display: block;
         }
-        main section article .contenedor h4{
-        display: block;
+        
+        
+        div.banner{
+            display: block;
+        
+        
+        }
+
+       main section article .contenedor h4{
+        display: flex;
         }
         main section article {
             box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -120,63 +256,59 @@ padding: 20px;
        
  
     @media (min-width: 769px) {
-           .burger-menu{
-               display: none;
-           }
+        div.banner{
+            display: block;
+            width: auto;
+
         }
- .box-model
-
- 
- .search-bar input {
-     margin-left: 15px;
- }
-
- footer {
-     padding-top: 40px;
-     padding-bottom: 15px;
-     text-align: center;
- }
- footer .copy {
-     color: var(--darkGrey);
-     font-size: var(--paragraph);
-     text-align: left;
-     padding-left: 15px;
-
- }
-footer i {
-    color: var(--lightBlue);
-    font-size: 2em;
-    margin-bottom: 10px;
-}
- footer p {
-     font-size: var(--paragraph);
-     padding: 10px 30px 10px 30px
-
- }
- footer {
-     font-size: var(--descriptions);
- }
- footer{
-    background-color: white;
-    padding-top: 20px;
-}
-footer section{
-    text-align: center;
-    padding: 20px 50px;
-}
-footer section i{
-color: var(--lightBlue);
-font-size: var(--titulares);
-}
-footer section h3{
-    font-size: var(--descuentos-descripciones);
-    color: var(--darkGrey);
-}
-footer section p{
-    color: var(--darkGrey);
-}
-footer p{
-    color: var(--darkGrey);
-    margin-left: 10px;
-}
+        div.madre{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+           .burger-menu{
+               display:none;
+           }
+div.caja{
+    display: flex;
+    justify-content: space-around;
+    
     }
+ ul {
+        display: flex;
+        text-align: justify;
+        justify-content:space-evenly
+    
+} 
+ div.search-bar{
+    padding-right: 100px;
+
+
+ } 
+ div.cajita{
+     display:flex
+ }
+ div.caja1a{
+display: flex;
+flex-direction: column;
+ }
+ div.cajitab{
+     display: flex;
+     }
+     div.cajitac{
+         display: flex;
+    
+     }
+
+ @media (min-width: 1024px) {
+    div.caja1{
+        display: flex;
+    }
+ }
+    div.caja1a{
+    display: flex;
+    flex-direction: row;
+}
+}}
+ 
