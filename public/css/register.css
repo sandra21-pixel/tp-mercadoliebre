@@ -1,0 +1,151 @@
+main.register {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgb(229, 255, 0),white);  
+    
+}
+div.register1 {
+    margin: 0 auto;
+    width: 350px;
+    height: 100%;
+    padding: 6rem 1rem;
+}
+
+
+.register h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.register hr {
+    background: linear-gradient(blue);
+    height: 10px;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+div .formulario{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    width: 100%;
+}
+div.formulario {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+div.nombre {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    width: 100%;
+    
+}
+div.usuario{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    width: 100%;
+}
+div.email{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    width: 100%;
+}
+div.domicilio{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    width: 100%;
+}
+div.password{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+    border-radius: 10px;
+    
+}
+input.vender{
+        margin-top: 5px;
+    width: 40px;
+    margin-right:5px ;
+    margin-left: 10px;
+    }
+input.comprar{
+        margin-top: 5px;
+    width: 40px;
+    margin-right: 5px;
+    margin-left: 15px;
+    }
+
+div.opcion{
+    display: flex;
+    flex-direction: row;
+}
+ div.electro input{
+    margin-top: 5px;
+width: 10px;
+}
+div.moda input{
+    margin-top: 5px;
+width: 10px;
+}
+div.jugueteria input{
+    margin-top: 5px;
+width: 10px;
+}
+div.vidasana input{
+margin-top: 5px;
+width: 10px;
+} 
+div.avatar{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.register .boton{
+    width: 50%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 70px;
+    background-color:lightgreen;
+    
+}
+
+
+
+
+.register .btton{
+     margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 70px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+    background-color:lightskyblue;
+    
+}

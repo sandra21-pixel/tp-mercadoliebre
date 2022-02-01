@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=awap");
+@import url("login.css");
+@import url("register.css");
+@import url("editprofile.css");
+/* * {
+    box-sizing: border-box;
+}
+header img {
+    display:block;
+    border-radius: 50%;
+    width: 180px;
+} */
 *{ 
     font-family:"Roboto", sans-serif;
     margin: 0;
@@ -17,9 +28,7 @@ body{
 --darkGrey : #666;
 --lightGrey : #ebebeb;
 --green : #39b54a; 
-/*Fonts*/
 --font-primary : "Roboto", sans-serif;
-/*font-size*/ 
 --paragraph :12px;
 --title : 24px;
 --prices : 18px;
@@ -92,17 +101,18 @@ header .dues {
  .logo {
      padding-top: 25px;
      padding-left: 25px;
-     width: 50%;
-     margin-right: 15px;
+     width: 60%;
+     margin-right: 25px;
 
  }
  div.search-bar {
+     display: flex;
     padding-top: 40px;
     padding-left: 40px;
     width:50%;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+    margin-right: 70px;
  }
  button i{
     padding-top: 5px;
@@ -256,6 +266,7 @@ main section article i{
        
  
     @media (min-width: 769px) {
+       
         div.banner{
             display: block;
             width: auto;
@@ -275,13 +286,18 @@ div.caja{
     justify-content: space-around;
     
     }
- ul {
-        display: flex;
-        text-align: justify;
-        justify-content:space-evenly
-    
-} 
+
+ ul{
+     display: flex;
+
+ }
+ li{
+margin-right: 20px;
+ }
+ 
+
  div.search-bar{
+     display: flex;
     padding-right: 100px;
 
 

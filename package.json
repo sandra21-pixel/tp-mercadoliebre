@@ -5,7 +5,8 @@
   "main": "app.js",
   "dependencies": {
     "express": "^4.17.1",
-    "path":"0.12.7"
+    "nodemon": "^2.0.15",
+    "path": "0.12.7"
   },
   "devDependencies": {},
   "scripts": {
@@ -15,5 +16,4 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
-  
 }
