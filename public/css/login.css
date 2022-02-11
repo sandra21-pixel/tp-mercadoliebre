@@ -1,9 +1,10 @@
 @import url("login.css");
-.login h1{
+h1{
    margin-bottom: 1rem; 
    text-align: center;
-
-}
+   text-transform: uppercase;
+   margin-bottom: 25px;
+}  
 
 hr{
     background: linear-gradient(rgb(228, 228, 228), white);
@@ -13,6 +14,8 @@ hr{
 }
 div.datos{
     background-color: rgb(230, 230, 84);
+    width: 100%;
+    
 }
 
 
@@ -32,6 +35,26 @@ div.password{
         width: 100%;  
 }
 button.bttn{
+    background-color: rgb(146, 167, 236);
+    width: 50%;
     margin-left: 70px;
-    background-color: rgb(207, 233, 155);
+    font-size: 15px;
+    border-radius: 10px;
+    color:black;
+   
 }
+button.bttn:hover{
+    background-color: aquamarine;
+    font-size: 15px;
+    border-radius: 10px;
+    color: black;
+
+    transition: background-color, 0.5s,
+    color,#0022AA;
+} 
+a{
+    color: black;
+    padding:8px 10px; 
+    
+}
+

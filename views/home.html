@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,7 @@
     <!-- font awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="/css/style.css">
-    <title>Document</title>
+    <title>Mercado Liebre</title>
 </head>
 
 <body>
@@ -19,7 +18,7 @@
                 <a href="#"><img src="/images/logo-mercado-liebre.svg" alt="logo" /></a>
             </div>
             <div class="search-bar">
-                <input type="text" placeholder="Buscar productos, marcas">
+                <input type="text" name="" id="" placeholder="Buscar productos, marcas">
                 <button><i class="fas fa-search"></i></button>
                 </div>
             </div>
@@ -28,9 +27,9 @@
         <div class="caja">
             <div class="pb-15">
                 <ul>
-                    <li><a href=""></a>Ofertas</li>
-                    <li><a href=""></a>Tiendas Oficiales</li>
-                    <li><a href=""></a>Vender</li>
+                    <li><a href="">Ofertas</a></li>
+                    <li><a href="">Tiendas Oficiales</a></li>
+                    <li><a href="">Vender</a></li>
                     <li><a href="">Ayuda<i class="fas fa-user"></i></a></li>
                 </ul>
             </div>
@@ -38,9 +37,9 @@
 
             <div class="pb-16">
                 <ul>
-                    <li><a href="">Creá tu cuenta<i class="fas fa-credit-card"></i></a></li>
-                    <li><a href="">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
-                    <li><a href="">Mis compras<i class="fas fo-shopping-basket"></i></a></li>
+                    <li><a href="/register">Creá tu cuenta<i class="fas fa-address-card"></i></a></li>
+                    <li><a href="/login">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
+                    <li><a href="">Mis compras<i class="fas fa-shopping-basket"></i></a></li>
                 </ul>
             </div>
             <div class="burger-menu">
@@ -59,20 +58,22 @@
                 <article class="card1">
                     <img width="100%" src="images/img-cafetera-moulinex.jpg" alt="Cafetera" />
                     <div class="contenedor">
-                        <div class="camioncito">
+                        <div id="truck" class="camioncito">
                             <i class="fas fa-truck"></i>
                         </div>
+                        <div class="diseño">
                         <div class="num">
                             <span>$6.770</span>
                             <p> 40% OFF</p>
                         </div>
                         <h5>Cafetera Moulinex</5>
                     </div>
+                </div>
                    </article>
                     <article class="card2">
                             <img width="100%" src="images/img-macbook-pro-2019.jpg" alt="MacBook" />
                             <div class="contenedor">
-                                <div class="camioncito">
+                                <div id="truck" class="camioncito">
                                     <i class="fas fa-truck"></i>
                             </div>
                             <div class="num">
@@ -87,7 +88,7 @@
                         <article class="card3">
                             <img width="100%" src="images/img-samsung-galaxy-s10.jpg" alt="Samsung" />
                             <div class="contenedor">
-                                <div class="camioncito">
+                                <div id="truck"  class="camioncito">
                                     <i class="fas fa-truck"></i>
                                 </div>
                                 <div class="num">
@@ -102,7 +103,7 @@
                         <article class="card4">
                             <img width="100%" src="images/img-tv-samsung-smart.jpg" alt="SmartTv" />
                             <div class="contenedor">
-                                <div class="camioncito">
+                                <div id="truck" class="camioncito">
                                     <i class="fas fa-truck"></i>
                                 </div>
                                 <div class="num">
@@ -115,16 +116,15 @@
                             </div>
                         </article>
                  </div>
-            </section>
         
-        <section>
+        
             <h2>Seccion de Ofertas</h2>
                <div class="caja1a">
-                <div class="cajitab">
+                 <div class="cajita2">
                  <article class="card5">
                     <img width="100%" src="images/img-cafetera-moulinex.jpg" alt="Cafetera" />
                     <div class="contenedor">
-                        <div class="camioncito">
+                        <div id="truck" class="camioncito">
                             <i class="fas fa-truck"></i>
                         </div>
                         <div class="num">
@@ -138,7 +138,7 @@
                     <article class="card6">
                         <img width="100%" src="images/img-macbook-pro-2019.jpg" alt="MacBook" />
                         <div class="contenedor">
-                            <div class="camioncito">
+                            <div id="truck" class="camioncito">
                                 <i class="fas fa-truck"></i>
                             </div>
                             <div class="num">
@@ -147,28 +147,31 @@
                             </div>
                             <h5> MacBook Pro 2019 </h5>
                         </div>
+                        </div>
                       </article>
-                      </div>
-                      <div class="cajitac">
+                      
+                      <div class="cajita2"> 
                         <article class="card7">
                             
                             <img width="100%" src="images/img-samsung-galaxy-s10.jpg" alt="Samsung" />
                             <div class="contenedor">
-                                <div class="camioncito">
+                                <div id="truck" class="camioncito">
                                     <i class="fas fa-truck"></i>
                                 </div>
+                                <div class="estilo">
                                 <div class="num">
                                     <span> $70.500 </span>
                                     <p> 10% off </p>
                                 </div>
                                 <h5> Samsung Galaxy S10 </h5>
                             </div>
+                            </div>
 
                            </article>
                             <article class="card8">
                                 <img width="100%" src="images/img-tv-samsung-smart.jpg" alt="SmartTv" />
                                 <div class="contenedor">
-                                    <div class="camioncito">
+                                    <div id="truck" class="camioncito">
                                         <i class="fas fa-truck"></i>
                                     </div>
                                     <div class="num">
@@ -178,34 +181,40 @@
                                     <h5> SmartTv Samsung 43" </h5>
                                 </div>
                             </div>
-                            </div>
-                            </article>
+                          
+                       </article>
                             </div>
                         </div>
-                        </div>
+                        <!-- </div> -->
         </section>
         
     </main>
     <footer>
         <section>
+            <div class="cajafooter">
             <div>
                 <i class="fas fa-credit-card"></i>
                 <h3> Pagá con tarjeta o en efectivo </h3>
-                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
-                    puntos de pago. ¡Y siempre es seguro! </p>
+                <p>Con Mercado Liebre Cash, tenés cuotas 
+                <br> sin interés con tarjeta o efectivo en
+                <br> puntos de pago. ¡Y siempre es seguro! </p>
             </div>
+            
             <div>
                 <i class="fas fa-gift"></i>
                 <h3> Envío gratis desde $ 2.500 </h3>
-                <p> Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
-                    productos. Es un beneficio de Mercado </p>
+                <p> Solo por estar registrad@ en Mercado
+                <br> Liebre tenés envíos gratis en miles de
+                <br> productos. Es un beneficio de Mercado </p>
             </div>
             <div>
                 <i class="fas fa-user-shield"></i>
                 <h3> Seguridad, de principio a fin </h3>
-                <p> ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
-                    porque estás siempre protegid@. </p>
+                <p> ¿No te gusta? ¡Devolvelo! En Mercado
+               <br> Liebre, no hay nada que no puedas hacer,
+               <br>  porque estás siempre protegid@. </p>
             </div>
+        </div>
             <div class="copy">
                 <small>Copyright © 1999-2020 MercadoLiebre S.R.L.</small>
         </section>

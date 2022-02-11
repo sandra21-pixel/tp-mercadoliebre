@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/style.css">
 
 </head>
 
 <body>
-<div class="datos">
+<div class="datos" action="/register" method="POST">
 <h1>Login</h1>
         <hr>
         <div class="padrex">
             <div class="name">
-                <label for="nombre de usuario">Nombre de Usuario</label>
-                <input type="nombre de usuario" name="nombre de usuario" id="Nombre de Usuario" placeholder="nombre de usuario">
+                <label for="user">Nombre de Usuario</label>
+                <input type="username" name="nombre de usuario" id="user" placeholder="nombre de usuario">
             </div>
 
             <div class="password">
@@ -28,10 +28,11 @@
         
             <article>
 
-                <div>
+                <div class="bttn">
                     <button class="bttn" type="send" placeholder="send">ENVIAR</button>
                 </div>
-                <span><a href="/.register.html">Aun no tengo cuenta</a></span>
+                <br>
+                <span><a href="/register">Aun no tengo cuenta</a></span>
         </form>
         </div>
     
